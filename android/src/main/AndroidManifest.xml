@@ -1,0 +1,26 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.vitanov.multiimagepicker">
+
+    <application>
+        <provider
+            android:name="com.vitanov.multiimagepicker.FishBunMod.java.com.sangcomz.fishbun.FishBunFileProvider"
+            android:authorities="${applicationId}.fishbunfileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity
+            android:name="com.vitanov.multiimagepicker.FishBunMod.java.com.sangcomz.fishbun.ui.album.ui.AlbumActivity"
+            android:label="@string/album"
+            android:theme="@style/FishBunTheme"/>
+        <activity
+            android:name="com.vitanov.multiimagepicker.FishBunMod.java.com.sangcomz.fishbun.ui.picker.PickerActivity"
+            android:theme="@style/FishBunTheme" />
+        <activity
+            android:name="com.vitanov.multiimagepicker.FishBunMod.java.com.sangcomz.fishbun.ui.detail.ui.DetailImageActivity"
+            android:theme="@style/DetailViewTheme" />
+    </application>
+</manifest>
