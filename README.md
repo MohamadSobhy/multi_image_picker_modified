@@ -67,16 +67,7 @@ This software uses the following open source packages:
 
 [image_picker](https://pub.dartlang.org/packages/image_picker) - Official Flutter image picker plugin
 
-## Support
-
-If this plugin was useful to you, helped you to deliver your app, saved you a lot of time, or you just want to support the project, I would be very grateful if you buy me a cup of coffee.
-
-<a href="https://www.buymeacoffee.com/Sh1d0w" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
 ## License
 
 MIT
-
----
-> GitHub [@Sh1d0w](https://github.com/Sh1d0w) &nbsp;&middot;&nbsp;
-> Twitter [@RadoslavVitanov](https://twitter.com/RadoslavVitanov)
