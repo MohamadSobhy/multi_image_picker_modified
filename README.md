@@ -1,6 +1,6 @@
 
 <h1 align="center">
-  Flutter Multi Image Picker
+  Flutter Multi Image Picker - Modified
   <br>
 </h1>
 
